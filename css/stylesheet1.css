@@ -1,7 +1,7 @@
 
 
 body {
-	background-color: #9d9171;
+	background-color: #cabb92;
 	max-width: 1000px;
 	font-family: "helvetica";
 	font-style: normal;
@@ -9,12 +9,28 @@ body {
 	font-color: #000000;
 	margin: 0px;
 	padding: 0px;
+	position: absolute;
+	left: 50%;
 }
 
 #header {
-	max-height: 200px;
-	max-width: 100%;
-	min-height: 60px;
+	max-height: 10px;
+	margin-top: 15px;
+	margin-left: -500px;
+}
+
+#header a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+#header a:hover {
+	color: #555555;
+	text-decoration: none;
 }
 
 #logo {
@@ -27,6 +43,16 @@ body {
 	margin-left: 120px;
 }
 
+.logo img {
+	width: 600px;
+	margin-left: 200px;
+}
+
+.toolbar {
+	text-align: center;
+	line-height: 7px;
+}
+
 #buttons {
 	padding-top: 36px;
 	margin-right: 120px;
@@ -35,7 +61,25 @@ body {
 }
 
 .button {
-	margin-bottom: 10px;
+	margin: 10px;
+}
+
+#newsblock {
+	float: left;
+	width: 620px;
+	min-height: 500px;
+	background-color: #aa23fa;
+	margin-top: 200px;
+	margin-left: -500px;
+}
+
+#sidebar {
+	width: 360px;
+	min-height: 500px;
+	background-color: #000000;
+	float: left;
+	margin-left: 20px;
+	margin-top: 200px;
 }
 
 #footer {
