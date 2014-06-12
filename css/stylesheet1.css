@@ -14,7 +14,7 @@ body {
 }
 
 #header {
-	max-height: 10px;
+	height: 200px;
 	margin-top: 15px;
 	margin-left: -500px;
 }
@@ -67,22 +67,23 @@ body {
 	margin: 10px;
 }
 
-#newsblock {
-	float: left;
-	width: 620px;
-	min-height: 500px;
-	background-color: #aa23fa;
-	margin-top: 200px;
+#content {
+	width: 1000px;
+	height: 100%;
 	margin-left: -500px;
 }
 
-#sidebar {
-	width: 360px;
-	min-height: 500px;
-	background-color: #000000;
+#newsblock {
+	width: 620px;
+	height: 2000px;
 	float: left;
+}
+
+#sidebar {
+	width: 340px;
+	height: 500px;
+	float: right;
 	margin-left: 20px;
-	margin-top: 200px;
 }
 
 #footer {
